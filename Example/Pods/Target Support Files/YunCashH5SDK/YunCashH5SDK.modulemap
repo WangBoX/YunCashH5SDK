@@ -1,0 +1,6 @@
+framework module YunCashH5SDK {
+  umbrella header "YunCashH5SDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

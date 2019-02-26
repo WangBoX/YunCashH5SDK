@@ -1,0 +1,11 @@
+framework module YunCashH5SDKFrameWork {
+  umbrella header "YunCashH5SDKFrameWork.h"
+
+  export *
+  module * { export * }
+}
+
+module YunCashH5SDKFrameWork.Swift {
+    header "YunCashH5SDKFrameWork-Swift.h"
+    requires objc
+}

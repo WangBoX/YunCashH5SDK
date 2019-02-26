@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YunCashH5SDK_Example' do
+  pod 'YunCashH5SDK', :path => '../'
+
+  target 'YunCashH5SDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

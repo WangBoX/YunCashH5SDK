@@ -1,0 +1,32 @@
+{
+  "name": "YunCashH5SDK",
+  "version": "0.1.0",
+  "summary": "提供给外部公司使用的H5相关模块SDK",
+  "description": "为更好的对接各家聚合支付公司，H5相关的模块进行SDK化。",
+  "homepage": "http://git.2dfire.net/ccd-iOS/tdfshopmanagersdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "WangBoX": "563915318@qq.com"
+  },
+  "source": {
+    "git": "/Users/BlingX/Desktop/YunCashH5SDK",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YunCashH5SDK/Classes/**/*.{h,m}",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "vendored_frameworks": "YunCashH5SDK/*.framework",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
+}
